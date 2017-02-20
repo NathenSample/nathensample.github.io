@@ -1,0 +1,75 @@
+.cell { 
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	float: left;
+	width: 125px;
+	height: 125px;
+}
+
+.row { 
+	clear: both;
+	overflow: hidden;
+}
+
+.table {
+	margin-top:25px;
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000; 
+}
+
+.centered {
+	margin-right: auto;
+	margin-left: auto; 
+	width: 635px;
+	padding-left:4px;
+ }
+
+ .top_banner {
+ 	font-weight:800;
+ 	height:100px;
+ 	width:100%;
+ 	background-color:#494949;
+ 	border-width: 0 0 4px 0;
+ 	border-color:#888888;
+ }
+
+ .no_margin {
+ 	margin:0px;
+ }
+
+ .banner_item { 
+ 	text-align: center;
+ }
+
+.cell_content{
+    height:125px;
+    width:125px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+
+ body {
+ 	background-repeat: repeat;
+ 	background-image: url("../images/repeatbg.jpg");
+ }
+
+ .active {
+ 	background-color:#202A44;
+ }
+
+ a{
+ 	color:white;
+ 	text-decoration: none;
+ }
+
+ .tail{
+ 	position:fixed;
+ 	bottom:0px;
+ 	width:100%;
+ 	color:white;
+ }
+
+ .bingo_input{
+ 	margin-top:5px;
+ }
